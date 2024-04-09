@@ -2,7 +2,7 @@ import './card.scss'
 
 function Card({ cover, name, id }) {
   return (
-    <article>
+    <article key={id}>
       <img src={cover} alt={name} />
       <div>
         <p>{name}</p>
