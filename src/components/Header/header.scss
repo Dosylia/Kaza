@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px 20px 100px;
+  @media (max-width: 769px) {
+    padding: 20px;
+  }
+  img {
+    height: 68px;
+    object-fit: contain;
+    @media (max-width: 769px) {
+      height: 47px;
+    }
+  }
+  nav {
+    a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: black;
+      &:last-child {
+        margin-right: 0;
+      }
+      &.active {
+        text-decoration: underline black;
+      }
+    }
+  }
+}
