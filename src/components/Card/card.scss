@@ -1,0 +1,23 @@
+article {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  div {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0 0 10px 0;
+    position: relative;
+
+    p {
+      margin: 0;
+    }
+  }
+}

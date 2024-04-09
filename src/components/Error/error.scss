@@ -1,0 +1,35 @@
+@import '../../assets/style/variables.module.scss';
+
+.error-404,
+.error-text {
+  text-align: center;
+  color: $main-color;
+}
+.error-404 {
+  font-size: 288px;
+  font-weight: 700;
+  margin-top: 100px;
+  @media (max-width: 768px) {
+    font-size: 26vw;
+  }
+}
+.error-text {
+  margin-top: 20px;
+  font-size: 36px;
+  @media (max-width: 768px) {
+    font-size: 24px;
+    padding: 10px;
+  }
+  @media (max-width: 480px) {
+    font-size: 18px;
+  }
+}
+.error-link {
+  color: black;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 100px;
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}

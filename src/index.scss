@@ -3,11 +3,10 @@
 
 * {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
   margin: 0;
   padding: 0;
   object-fit: cover;
+  box-sizing: border-box;
 }
 #root {
   min-height: 100vh;
