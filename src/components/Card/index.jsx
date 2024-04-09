@@ -1,6 +1,6 @@
 import './card.scss'
 
-function Card({ cover, name }) {
+function Card({ cover, name, id }) {
   return (
     <article>
       <img src={cover} alt={name} />
