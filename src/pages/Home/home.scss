@@ -3,4 +3,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  a {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 32%;
+    height: 340px;
+    cursor: pointer;
+    text-decoration: none;
+  }
 }

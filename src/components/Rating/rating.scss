@@ -1,0 +1,8 @@
+@import '../../assets/style/variables.module.scss';
+
+.rating {
+  font-size: 50px;
+  .star {
+    padding-right: 5px;
+  }
+}

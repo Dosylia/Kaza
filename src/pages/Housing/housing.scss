@@ -1,0 +1,51 @@
+@import '../../assets/style/variables.module.scss';
+
+.collapse-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.apartment-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  .apartment-name-location {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .apartment-name {
+      color: $main-color;
+      font-weight: 400;
+      font-size: 36px;
+    }
+  }
+
+  .apartment-owner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    p {
+      text-align: end;
+      line-height: 2;
+      color: $main-color;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+.apartment-tag-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

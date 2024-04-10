@@ -1,12 +1,8 @@
 @import '../../assets/style/variables.module.scss';
 
 article {
-  border-radius: 10px;
-  overflow: hidden;
-  width: 32%;
-  height: 340px;
-  cursor: pointer;
-
+  width: 100%;
+  height: 100%;
   img {
     width: 100%;
     height: 75%;
@@ -18,7 +14,7 @@ article {
 
   div {
     background-color: $main-color;
-    color: #fff;
+    color: $background-color;
     padding: 10px;
     border-radius: 0 0 10px 0;
     position: relative;

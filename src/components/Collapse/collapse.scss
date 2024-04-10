@@ -3,15 +3,19 @@
 .collapse {
   margin-top: 50px;
   margin-bottom: 30px;
+  width: 100%;
 
   .collapse-header {
+    width: 100%;
     .collapse-title {
       display: flex;
       justify-content: space-between;
       padding: 20px;
-      width: 100%;
+      width: 90%;
+      margin: auto;
       background-color: $main-color;
       color: $background-color;
+      border-radius: 20px;
 
       .arrow-reversed {
         transform: rotate(-0.5turn);
@@ -20,9 +24,10 @@
   }
 
   .collapse-content {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
-    color: $main-color;
-    text-align: center;
+    color: black;
     font-size: 18px;
   }
 }

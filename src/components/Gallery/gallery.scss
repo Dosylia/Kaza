@@ -1,0 +1,44 @@
+@import '../../assets/style/variables.module.scss';
+
+.gallery {
+  position: relative;
+  .carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .left {
+      left: 10px;
+    }
+
+    .right {
+      right: 10px;
+    }
+
+    .picture-carrousel {
+      border-radius: 50px;
+      width: 100%;
+      height: 415px;
+    }
+
+    .count-pictures {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: $background-color;
+      z-index: 1;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+}

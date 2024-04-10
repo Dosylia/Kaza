@@ -6,6 +6,7 @@ import About from './pages/About/'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Error from './components/Error'
+import Housing from './pages/Housing'
 import './index.scss'
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="apropos" element={<About />} />
+        <Route path="/housing/:id" element={<Housing />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

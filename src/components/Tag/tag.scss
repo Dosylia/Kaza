@@ -1,0 +1,15 @@
+@import '../../assets/style/variables.module.scss';
+
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  p {
+    color: $background-color;
+    background-color: $main-color;
+    padding: 5px 30px;
+    border-radius: 10px;
+  }
+}
