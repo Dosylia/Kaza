@@ -26,5 +26,8 @@ header {
         text-decoration: underline black;
       }
     }
+    @media (max-width: 769px) {
+      text-transform: uppercase;
+    }
   }
 }

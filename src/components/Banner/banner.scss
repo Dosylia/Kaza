@@ -7,6 +7,10 @@
   border-radius: 50px;
   overflow: hidden;
   background-color: black;
+  @media (max-width: 769px) {
+    height: 200px;
+    border-radius: 20px;
+  }
 
   img {
     position: absolute;
@@ -31,6 +35,8 @@
     font-size: 40px;
     white-space: nowrap;
     @media (max-width: 769px) {
+      left: 45%;
+      width: 70%;
       font-size: 24px;
       text-align: start;
       white-space: pre-wrap;
@@ -44,6 +50,10 @@
   height: 300px;
   border-radius: 50px;
   overflow: hidden;
+  @media (max-width: 769px) {
+    height: 200px;
+    border-radius: 20px;
+  }
 
   img {
     position: absolute;

@@ -4,7 +4,10 @@
   margin-top: 50px;
   margin-bottom: 30px;
   width: 100%;
-
+  @media (max-width: 769px) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .collapse-header {
     width: 100%;
     .collapse-title {
@@ -16,6 +19,9 @@
       background-color: $main-color;
       color: $background-color;
       border-radius: 20px;
+      @media (max-width: 769px) {
+        width: 100%;
+      }
 
       .arrow-reversed {
         transform: rotate(-0.5turn);

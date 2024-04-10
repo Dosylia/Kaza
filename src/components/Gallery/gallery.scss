@@ -14,6 +14,11 @@
       background: none;
       border: none;
       cursor: pointer;
+      img {
+        @media (max-width: 769px) {
+          height: 40px;
+        }
+      }
     }
 
     .left {
@@ -28,6 +33,9 @@
       border-radius: 50px;
       width: 100%;
       height: 415px;
+      @media (max-width: 769px) {
+        border-radius: 20px;
+      }
     }
 
     .count-pictures {
@@ -39,6 +47,9 @@
       z-index: 1;
       font-size: 20px;
       font-weight: 600;
+      @media (max-width: 769px) {
+        display: none;
+      }
     }
   }
 }

@@ -53,7 +53,18 @@ function Housing() {
       </div>
       <div className="apartment-tag-rating">
         <Tag tags={apartment.tags} />
-        <Rating rating={apartment.rating} />
+        <Rating className="rating-desktop" rating={apartment.rating} />
+      </div>
+      <div className="apartment-rating-owner">
+        <Rating className="rating-mobile" rating={apartment.rating} />
+        <div className="apartment-owner">
+          <p
+            dangerouslySetInnerHTML={{
+              __html: apartment.host.name.replace(' ', '<br />'),
+            }}
+          ></p>
+          <img src={apartment.host.picture} alt={apartment.host.name} />
+        </div>
       </div>
       <div className="collapse-content">
         <Collapse collapseTitle={'Description'}>

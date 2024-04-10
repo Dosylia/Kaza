@@ -13,3 +13,12 @@
   max-width: 1140px;
   margin: auto;
 }
+
+main {
+  width: 90%;
+  margin: auto;
+  @media (max-width: 769px) {
+    width: 80%;
+    margin: auto;
+  }
+}

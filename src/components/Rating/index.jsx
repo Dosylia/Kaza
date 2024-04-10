@@ -2,7 +2,7 @@ import './rating.scss'
 import StarRed from '../../assets/img/star-red.png'
 import StarGrey from '../../assets/img/star-grey.png'
 
-function Rating({ rating }) {
+function Rating({ rating, className }) {
   const maxRating = 5
 
   const renderStars = () => {
@@ -21,7 +21,7 @@ function Rating({ rating }) {
     return stars
   }
 
-  return <div className="rating">{renderStars()}</div>
+  return <div className={`rating ${className}`}>{renderStars()}</div>
 }
 
 export default Rating

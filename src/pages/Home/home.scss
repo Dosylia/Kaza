@@ -3,12 +3,18 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  @media (max-width: 769px) {
+    margin-top: 30px;
+  }
   a {
     border-radius: 10px;
     overflow: hidden;
-    width: 32%;
+    width: 31%;
     height: 340px;
     cursor: pointer;
     text-decoration: none;
+    @media (max-width: 769px) {
+      width: 100%;
+    }
   }
 }
