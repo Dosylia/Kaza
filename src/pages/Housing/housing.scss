@@ -4,9 +4,10 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  gap: 10px;
+  gap: 70px;
   @media (max-width: 769px) {
     flex-direction: column;
+    gap: 5px;
   }
 }
 
