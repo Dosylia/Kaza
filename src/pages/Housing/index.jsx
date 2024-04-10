@@ -43,11 +43,7 @@ function Housing() {
           <p>{apartment.location}</p>
         </div>
         <div className="apartment-owner">
-          <p
-            dangerouslySetInnerHTML={{
-              __html: apartment.host.name.replace(' ', '<br />'),
-            }}
-          ></p>
+          <p>{apartment.host.name.replaceAll(' ', '\n')}</p>
           <img src={apartment.host.picture} alt={apartment.host.name} />
         </div>
       </div>
@@ -58,11 +54,7 @@ function Housing() {
       <div className="apartment-rating-owner">
         <Rating className="rating-mobile" rating={apartment.rating} />
         <div className="apartment-owner">
-          <p
-            dangerouslySetInnerHTML={{
-              __html: apartment.host.name.replace(' ', '<br />'),
-            }}
-          ></p>
+          <p>{apartment.host.name.replaceAll(' ', '\n')}</p>
           <img src={apartment.host.picture} alt={apartment.host.name} />
         </div>
       </div>
