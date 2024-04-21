@@ -2,6 +2,12 @@
 
 .rating {
   font-size: 50px;
+  img {
+    @media (max-width: 769px) {
+      width: 25px;
+    }
+  }
+
   .star {
     padding-right: 5px;
   }

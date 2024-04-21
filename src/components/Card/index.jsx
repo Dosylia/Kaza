@@ -3,8 +3,8 @@ import './card.scss'
 function Card({ cover, name, id }) {
   return (
     <article key={id}>
-      <img src={cover} alt={name} />
-      <div>
+      <div class="image-container">
+        <img src={cover} alt={name} />
         <p>{name}</p>
       </div>
     </article>
