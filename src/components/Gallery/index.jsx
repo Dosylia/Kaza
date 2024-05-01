@@ -22,20 +22,26 @@ function Gallery({ pictures }) {
   return (
     <div className="gallery">
       <div className="carousel">
-        <button className="arrow left" onClick={goToPreviousPicture}>
-          <img src={arrowLeft} alt="Previous" />
-        </button>
+        {totalPictures > 1 && (
+          <button className="arrow left" onClick={goToPreviousPicture}>
+            <img src={arrowLeft} alt="Previous" />
+          </button>
+        )}
         <img
           className="picture-carrousel"
           src={pictures[currentPicture]}
           alt={`${currentPicture + 1}`}
         />
-        <button className="arrow right" onClick={goToNextPicture}>
-          <img src={arrowRight} alt="Next" />
-        </button>
-        <p className="count-pictures">
-          {currentPicture + 1} / {totalPictures}
-        </p>
+        {totalPictures > 1 && (
+          <>
+            <button className="arrow right" onClick={goToNextPicture}>
+              <img src={arrowRight} alt="Next" />
+            </button>
+            <p className="count-pictures">
+              {currentPicture + 1} / {totalPictures}
+            </p>
+          </>
+        )}
       </div>
     </div>
   )
