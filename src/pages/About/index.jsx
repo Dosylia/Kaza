@@ -4,7 +4,7 @@ import ImgBanner from '../../assets/img/banner-about.webp'
 import Collapse from '../../components/Collapse/'
 
 const banner = 'banner'
-const pHide = 'pHide'
+const pHide = 'h1Hide'
 
 function About() {
   return (

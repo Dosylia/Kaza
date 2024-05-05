@@ -6,7 +6,7 @@ import LogementsData from '../../datas/logements.json'
 import { Link } from 'react-router-dom'
 
 const banner = 'banner'
-const pShow = 'pShow'
+const pShow = 'h1Show'
 
 function Home() {
   return (
