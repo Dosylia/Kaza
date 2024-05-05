@@ -3,7 +3,7 @@ import Banner from '../../components/Banner/'
 import ImgBanner from '../../assets/img/banner-about.webp'
 import Collapse from '../../components/Collapse/'
 
-const banner = 'banner-about'
+const banner = 'banner'
 const pHide = 'pHide'
 
 function About() {
